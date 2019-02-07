@@ -1,4 +1,8 @@
 require 'pry'
+def countdown_with_sleep(x)
+  sleep x
+end
+
 def countdown(number)
  while number > 0
     puts "#{number} SECOND(S)!"
